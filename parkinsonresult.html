@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Parkinson Result and Diagnosis</title>
+    <style>
+        body {
+            background-image: url('static/result.jpeg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 40px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #555;
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        .footer {
+            margin-top: 40px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="result">
+        <h1>Automated Diagnosis</h1>
+        <p>Please find the result below</p>
+    </div>
+    <div class="container">
+        <h3>{{prediction_text}}</h3>
+    </div>
+    <div class="container">
+        <h4> General Information </h4>
+        <p>Parkinson’s disease is a brain disorder that causes unintended or uncontrollable movements, 
+            such as shaking, stiffness, and difficulty with balance and coordination.<br>
+            Symptoms usually begin gradually and worsen over time. As the disease progresses, 
+            people may have difficulty walking and talking. They may also have mental and behavioral changes, 
+            sleep problems, depression, memory difficulties, and fatigue</p>
+        <p>Symptoms may includer</p>        
+        <ul>
+<li>Tremor in hands, arms, legs, jaw, or head</li>
+<li>Muscle stiffness, where muscle remains contracted for a long time</li>
+<li>Slowness of movement</li>
+<li>Impaired balance and coordination, sometimes leading to falls</li>
+
+        </ul>
+    
+        <p> Medicine for treatmenrt</p>
+<ul>
+        <li>Increasing the level of dopamine in the brain</li>
+        <li>Having an effect on other brain chemicals, such as neurotransmitters, which transfer information between brain cells</li>
+        <li>Helping control non-movement symptoms</li>
+
+</ul>
+<p>&copy;https://www.nia.nih.gov/health/parkinsons-disease</p>
+    </div>
+</body>
+
+</html>
